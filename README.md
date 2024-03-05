@@ -1,8 +1,8 @@
 # aqmel
 uc berkeley air quality monitoring &amp; exposure lab 
 
-#####DESCRIPTION#####
-
+**#####DESCRIPTION#####
+**
 
 
 reqReport- Pulls node-specifc data over a given period of time
@@ -13,6 +13,6 @@ nodeData- CSV detailed files containing Node-Specifc data provided from Clarity 
 
 
 
--Written by Ishaan Gupta & Anusha Ladha
-
+**-Written by Ishaan Gupta & Anusha Ladha
+**
 For any questions, contact ishaangupta0408@gmail.com
