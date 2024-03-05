@@ -18,7 +18,7 @@ def request_and_fetch_a_report():
                                "outputFrequency": "hour",
                                "startTime": "2023-11-01T01:00:00.000Z",
                                "endTime": "2024-03-01T01:00:00.000Z",
-                               "metricLabelStyle": "English",
+                               "metricLabelStyle": "english",
                            })
     result.raise_for_status()
     result_json = result.json()
