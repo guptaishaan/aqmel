@@ -1,3 +1,5 @@
+#####REQUESTS A REPORT ON INDIVIDUAL NODE DATA FROM CLARITY API######
+
 from time import sleep
 import requests
 
