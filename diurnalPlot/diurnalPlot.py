@@ -13,7 +13,7 @@ wildfire_stats['Hour'] += 1
 plt.figure(figsize=(12, 6))
 
 # Non-Wildfire Data
-plt.plot(non_wildfire_stats['Hour'], non_wildfire_stats['Mean PM2.5'], label='Non-Wildfire Dates (11|30|23 - 12|13|23)', color='blue', marker='o')
+plt.plot(non_wildfire_stats['Hour'], non_wildfire_stats['Mean PM2.5'], label='Non-Wildfire Dates (9|30|23 - 12|13|23)', color='blue', marker='o')
 plt.fill_between(non_wildfire_stats['Hour'], non_wildfire_stats['Mean PM2.5'] - non_wildfire_stats['Std PM2.5'],
                  non_wildfire_stats['Mean PM2.5'] + non_wildfire_stats['Std PM2.5'], color='blue', alpha=0.2)
 
