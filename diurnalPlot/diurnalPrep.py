@@ -33,7 +33,7 @@ def analyze_hourly_pm25(file_path):
     return non_wildfire_stats, wildfire_stats
 
 # Example usage
-file_path = '/Users/ishaangupta/Downloads/main/assderp/jorgensen-v5/pose-detection-keypoints-estimation-yolov8/aqmel/aqmel/nodeData/AQQCNWJ6data.csv'
+file_path = '/Users/ishaangupta/Downloads/main/assderp/jorgensen-v5/pose-detection-keypoints-estimation-yolov8/aqmel/aqmel/nodeData/AYHCFXLYdata.csv'
 non_wildfire_stats, wildfire_stats = analyze_hourly_pm25(file_path)
 
 # Display the first few rows of the results for verification
