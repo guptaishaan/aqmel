@@ -5,18 +5,17 @@ def analyze_hourly_pm25(file_path):
     df = pd.read_csv(file_path)
     
     # Ensure the date column is in datetime format and extract both date and hour
-    df['DateTime'] = pd.to_datetime(df.iloc[:, 5])
+    df['DateTime'] = pd.to_datetime(df.iloc[:, 4])
     df['Date'] = df['DateTime'].dt.date
     df['Hour'] = df['DateTime'].dt.hour
     
     # Extract PM2.5 readings (assuming they are in column 56, as per 0-based indexing)
     df['PM2.5'] = pd.to_numeric(df.iloc[:, 74], errors='coerce')
-
     # Define the date ranges for non-wildfire and wildfire periods
-    non_wildfire_start = pd.to_datetime('2023-9-12').date()
-    non_wildfire_end = pd.to_datetime('2023-9-15').date()
-    wildfire_start = pd.to_datetime('2023-9-19').date()
-    wildfire_end = pd.to_datetime('2023-9-22').date()
+    non_wildfire_start = pd.to_datetime('2023-12-6').date()
+    non_wildfire_end = pd.to_datetime('2023-12-10').date()
+    wildfire_start = pd.to_datetime('2023-12-24').date()
+    wildfire_end = pd.to_datetime('2023-12-28').date()
 
     # Filter data for non-wildfire and wildfire periods
     non_wildfire_df = df[(df['Date'] >= non_wildfire_start) & (df['Date'] <= non_wildfire_end)]

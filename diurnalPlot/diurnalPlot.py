@@ -13,17 +13,17 @@ wildfire_stats['Hour'] += 1
 plt.figure(figsize=(12, 6))
 
 # Non-Wildfire Data
-plt.plot(non_wildfire_stats['Hour'], non_wildfire_stats['Mean PM2.5'], label='Non-Wildfire Dates (9|30|23 - 12|13|23)', color='blue', marker='o')
+plt.plot(non_wildfire_stats['Hour'], non_wildfire_stats['Mean PM2.5'], label='Non-Wildfire Dates (12|06|23 - 12|10|23)', color='blue', marker='o')
 plt.fill_between(non_wildfire_stats['Hour'], non_wildfire_stats['Mean PM2.5'] - non_wildfire_stats['Std PM2.5'],
                  non_wildfire_stats['Mean PM2.5'] + non_wildfire_stats['Std PM2.5'], color='blue', alpha=0.2)
 
 # Wildfire Data
-plt.plot(wildfire_stats['Hour'], wildfire_stats['Mean PM2.5'], label='Wildfire Dates ((12|14|23 - 12|27|23))', color='red', marker='o')
+plt.plot(wildfire_stats['Hour'], wildfire_stats['Mean PM2.5'], label='Wildfire Dates ((12|24|23 - 12|28|23))', color='red', marker='o')
 plt.fill_between(wildfire_stats['Hour'], wildfire_stats['Mean PM2.5'] - wildfire_stats['Std PM2.5'],
                  wildfire_stats['Mean PM2.5'] + wildfire_stats['Std PM2.5'], color='red', alpha=0.2)
 
 # Formatting the Plot
-plt.title('Hourly PM2.5 Concentrations: Non-Wildfire vs. Wildfire')
+plt.title('Hourly PM2.5 Concentrations: Non-Wildfire vs. Wildfire: Bay View AKMKX7CN')
 plt.xlabel('Hour of the Day')
 plt.ylabel('PM2.5 (μg/m³)')
 plt.xticks(range(1, 25))  # Ensure x-axis labels show every hour
