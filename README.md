@@ -26,5 +26,3 @@ Ishaan Gupta
 📧 Email: [ishaangupta0408@gmail.com](mailto:ishaangupta0408@gmail.com)
 
 ---
-
-This README file provides a general overview of our lab. For more detailed documentation on specific projects, please refer to the respective project folders within this repository.
