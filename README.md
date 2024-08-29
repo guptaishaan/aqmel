@@ -2,7 +2,7 @@
 
 ![Lab Team](./AQMELTeam.png)
 
-Welcome to the official GitHub repository of the UC Berkeley Air Quality Monitoring and Exposure Lab (AQMEL). We are dedicated to advancing the understanding of air quality and its impact on human health through innovative research and monitoring technologies.
+Welcome to the GitHub repository of the UC Berkeley Air Quality Monitoring and Exposure Lab (AQMEL). We are dedicated to advancing the understanding of air quality and its impact on human health through innovative research and monitoring technologies.
 
 ## About AQMEL
 
