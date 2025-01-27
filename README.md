@@ -17,7 +17,7 @@ Our team consists of passionate researchers, scientists, and engineers working c
 If you have any questions, suggestions, or would like to collaborate with us, feel free to reach out:
 
 Ishaan Gupta  
-Yashas Shashidhara 
-📧 Email: [ishaangupta0408@gmail.com](mailto:ishaangupta0408@gmail.com) 
+Yashas Shashidhara /
+📧 Email: [ishaangupta0408@gmail.com](mailto:ishaangupta0408@gmail.com) /
 📧 Email: [shashidharayashas@gmail.com](mailto:shashidharayashas@gmail.com)
 ---
