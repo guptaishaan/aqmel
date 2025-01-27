@@ -12,16 +12,13 @@ At AQMEL, our research focuses on:
 
 Our team consists of passionate researchers, scientists, and engineers working collaboratively to address the challenges of air pollution and its effects on public health.
 
-## Learn More
-
-For more information about our lab, ongoing projects, and publications, please visit our [official website](https://www.iveylab.com/).
-
 ## Contact
 
 If you have any questions, suggestions, or would like to collaborate with us, feel free to reach out:
 
-**Written by:**  
 Ishaan Gupta  
+Yashas Shashidhara 
 📧 Email: [ishaangupta0408@gmail.com](mailto:ishaangupta0408@gmail.com)
+📧 Email: [shashidharayashas@gmail.com](mailto:shashidharayashas@gmail.com)
 
 ---
