@@ -18,7 +18,6 @@ If you have any questions, suggestions, or would like to collaborate with us, fe
 
 Ishaan Gupta  
 Yashas Shashidhara 
-📧 Email: [ishaangupta0408@gmail.com](mailto:ishaangupta0408@gmail.com)
-📧 Email: [shashidharayashas@gmail.com](mailto:shashidharayashas@gmail.com)
+📧 Email: [ishaangupta0408@gmail.com](mailto:ishaangupta0408@gmail.com) [shashidharayashas@gmail.com](mailto:shashidharayashas@gmail.com)
 
 ---
